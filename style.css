@@ -62,6 +62,7 @@ header {
 .main-title {
   font-size: 64px;
   padding-top: 200px;
+  font-family: "Raleway", sans-serif;
 }
 
 .main-text {
@@ -79,6 +80,7 @@ header {
   font-size: 32px;
   padding-top: 90px;
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading::after {
@@ -142,4 +144,34 @@ header {
 
 .bg-6 {
   background-image: url(img/webcamp-mother.png);
+}
+
+/* Feature */
+
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+.strength {
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength:nth-child(3) {
+  margin-right: 0;
+}
+
+.strength-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
 }
