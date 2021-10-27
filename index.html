@@ -7,10 +7,11 @@
   <script src="https://kit.fontawesome.com/da60071329.js" crossorigin="anonymous"></script>
   <!-- CSSファイルの読み込み -->
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <title>WALS成果者</title>
 </head>
 <body>
-  <!-- header -->
+  <!-- Header -->
   <header>
     <div class="container header-group">
       <a href="index.html">
@@ -25,15 +26,15 @@
       </div>
       <nav>
         <ul class="menu">
-          <li class="menu-list"><a href="Portfolio">Portfolio</a></li>
-          <li class="menu-list"><a href="Feature">Feature</a></li>
-          <li class="menu-list"><a href="Profile">Profile</a></li>
-          <li class="menu-list"><a href="Contact">Contact</a></li>
+          <li class="menu-list"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-list"><a href="#feature">Feature</a></li>
+          <li class="menu-list"><a href="#profile">Profile</a></li>
+          <li class="menu-list"><a href="#contact">Contact</a></li>
         </ul>
       </nav>      
     </div>
   </header>
-  <!-- main-visual -->
+  <!-- Main-visual -->
   <section class="main-visual">
     <div class="container"> 
       <h1 class="main-title">
@@ -44,8 +45,8 @@
       </p>
     </div>
   </section>
-  <!-- portfolio -->
-  <section class="portfolio">
+  <!-- Portfolio -->
+  <section id="portfolio">
     <div class="container">
       <h2 class="heading">Portfolio</h2>
       <p class="heading-text">
@@ -64,7 +65,7 @@
     </div>
   </section>
   <!-- Feature -->
-  <section class="feature">
+  <section id="feature">
     <div class="container">
       <h2 class="heading">Feature</h2>
       <p class="heading-text">
@@ -92,7 +93,7 @@
     </div>
   </section>
   <!-- Profile -->
-  <section class="profile">
+  <section id="profile">
     <div class="container">
       <h2 class="heading">Profile</h2>
       <p class="heading-text">
@@ -101,24 +102,52 @@
         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters<br>
       </p>
       <div class="profile-group">
-        <div class="left-profile">
+        <div class="left-content">
           <div class="profile-photo"></div>
         </div>
-        <div class="right-profile">
-          <h3 class="profile-title">MyName</h3>
-          <p class="profile-text">
+        <div class="right-content">
+          <h3 class="description-title">MyName</h3>
+          <p class="description-text">
             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots<br>
             in a piece of classical Latin literature from 45 BC, making it over 2000 years<br>
             old. Richard McClintock, a Latin professor at Hampden-Sydney College in<br class="sp-none">
             Virginia, looked up one of the more obscure Latin words, consectetur
           </p>
-          <h3 class="profile-title">MySkills</h3>
-          <p class="profile-text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+          <h3 class="description-title">MySkills</h3>
+          <p class="description-text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
         </div>
       </div>
     </div>
   </section>
-
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="heading">Contact</h2>
+      <p class="heading-text">
+        It is a long established fact that a reader will be distracted by the readable<br>
+        content of a page when looking at its layout.<br class="sp-none">
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+      </p>
+      <div class="contact-group">
+        <div class="left-content">
+          <div class="left-content-content">
+            <h3 class="description-title">Mail</h3>
+            <a href="mailto:xxx@xxx.com" class="description-text link-text">xxx@xxx.com</a>
+            <h3 class="description-title">Tel</h3>
+            <a href="tel:000-0000-0000" class="description-text link-text">000-0000-0000</a>
+          </div>
+        </div>
+        <div class="right-content">
+          <div class="right-content-content">
+            <h3 class="description-title">SNS</h3>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
 
   </footer>
