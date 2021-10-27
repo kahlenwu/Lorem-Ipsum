@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ec715f;
+  height: 70px;
+  width: 100%;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-list {
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 70px;
+  list-style: none;
+  padding: 0 30px;
+  width: 120px;
+}
+
+.menu-list a {
+  color: #fafafa;
+}
