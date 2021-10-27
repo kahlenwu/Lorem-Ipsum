@@ -44,3 +44,22 @@ header {
 .menu-list a {
   color: #fafafa;
 }
+
+.top-visual {
+  height: 650px;
+  background: url(img/mv.png);
+  background-size: cover;
+  text-align: center;
+  color: #fafafa;
+  background-position: center;
+}
+
+.visual-title {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.visual-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
