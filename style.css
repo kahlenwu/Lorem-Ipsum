@@ -8,15 +8,17 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* header */
+
 header {
   background-color: #ec715f;
   height: 70px;
   width: 100%;
-}
-
-.container {
-  width: 1024px;
-  margin: 0 auto;
 }
 
 .header-group {
@@ -45,7 +47,10 @@ header {
   color: #fafafa;
 }
 
-.top-visual {
+/* main-visual  */
+
+.main-visual {
+  width: 100%;
   height: 650px;
   background: url(img/mv.png);
   background-size: cover;
@@ -54,12 +59,87 @@ header {
   background-position: center;
 }
 
-.visual-title {
+.main-title {
   font-size: 64px;
   padding-top: 200px;
 }
 
-.visual-text {
+.main-text {
   font-size: 20px;
   padding-top: 10px;
+}
+
+/* portfolio */
+
+.portfolio {
+  background-color: #eceff1;
+}
+
+.heading {
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.heading::after {
+  background-color: #ec715f;
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0 auto;
+  content: "";
+  display: block;
+}
+
+.heading-text {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.production-group {
+  padding: 30px 0 90px 0;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.production {
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
 }
