@@ -311,6 +311,7 @@ footer {
     height: 2px;
     margin: 5px auto;
   }
+
   .list-bar:nth-child(1) {
     margin-top: 10px;
   }
@@ -334,6 +335,7 @@ footer {
     background: #ec715f;
     display: none;
     top: 0;
+    left: 50%;
     width: 100%;
     height: 100%;
     color: #fafafa;
